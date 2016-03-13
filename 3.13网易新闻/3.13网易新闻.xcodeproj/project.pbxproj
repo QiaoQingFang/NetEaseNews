@@ -16,6 +16,7 @@
 		11236E451C958EEE00244A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11236E431C958EEE00244A94 /* LaunchScreen.storyboard */; };
 		11236E501C958EEE00244A94 /* __13____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11236E4F1C958EEE00244A94 /* __13____Tests.m */; };
 		11236E5B1C958EEE00244A94 /* __13____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11236E5A1C958EEE00244A94 /* __13____UITests.m */; };
+		11BE608F1C959DBF00902AB5 /* FFNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BE608E1C959DBF00902AB5 /* FFNetWorkTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,9 @@
 		11236E561C958EEE00244A94 /* 3.13网易新闻UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3.13网易新闻UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11236E5A1C958EEE00244A94 /* __13____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__13____UITests.m"; sourceTree = "<group>"; };
 		11236E5C1C958EEE00244A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BE608C1C959D8D00902AB5 /* HMSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSingleton.h; sourceTree = "<group>"; };
+		11BE608D1C959DBF00902AB5 /* FFNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNetWorkTool.h; sourceTree = "<group>"; };
+		11BE608E1C959DBF00902AB5 /* FFNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNetWorkTool.m; sourceTree = "<group>"; };
 		424B3B3E381D052533AEB637 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AFED96E8760B54B2E3D943B7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F4B7412BA2EC36220EF2124B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,7 @@
 		11236E341C958EEE00244A94 /* 3.13网易新闻 */ = {
 			isa = PBXGroup;
 			children = (
+				11BE608B1C959D4B00902AB5 /* Tool */,
 				11236E381C958EEE00244A94 /* AppDelegate.h */,
 				11236E391C958EEE00244A94 /* AppDelegate.m */,
 				11236E3B1C958EEE00244A94 /* ViewController.h */,
@@ -145,6 +150,16 @@
 				11236E5C1C958EEE00244A94 /* Info.plist */,
 			);
 			path = "3.13网易新闻UITests";
+			sourceTree = "<group>";
+		};
+		11BE608B1C959D4B00902AB5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				11BE608C1C959D8D00902AB5 /* HMSingleton.h */,
+				11BE608D1C959DBF00902AB5 /* FFNetWorkTool.h */,
+				11BE608E1C959DBF00902AB5 /* FFNetWorkTool.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 		63026623A10A30015A13F18F /* Pods */ = {
@@ -347,6 +362,7 @@
 			files = (
 				11236E3D1C958EEE00244A94 /* ViewController.m in Sources */,
 				11236E3A1C958EEE00244A94 /* AppDelegate.m in Sources */,
+				11BE608F1C959DBF00902AB5 /* FFNetWorkTool.m in Sources */,
 				11236E371C958EEE00244A94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
